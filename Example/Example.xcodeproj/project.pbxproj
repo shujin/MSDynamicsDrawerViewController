@@ -58,7 +58,7 @@
 
 /* Begin PBXFileReference section */
 		0BCBD77F8F1A4697976A8AFA /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
-		3A116696167E8C3E00DBD12B /* MSDynamicsDrawerViewController Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MSDynamicsDrawerViewController Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A116696167E8C3E00DBD12B /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A11669A167E8C3E00DBD12B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3A11669C167E8C3E00DBD12B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3A11669E167E8C3E00DBD12B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -146,7 +146,7 @@
 		3A116697167E8C3E00DBD12B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3A116696167E8C3E00DBD12B /* MSDynamicsDrawerViewController Example.app */,
+				3A116696167E8C3E00DBD12B /* Example.app */,
 				3A3CB25E183AE98B0089BED5 /* MSDynamicsDrawerViewController Storyboard Example.app */,
 			);
 			name = Products;
@@ -290,7 +290,7 @@
 			);
 			name = Example;
 			productName = Example;
-			productReference = 3A116696167E8C3E00DBD12B /* MSDynamicsDrawerViewController Example.app */;
+			productReference = 3A116696167E8C3E00DBD12B /* Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		3A3CB23F183AE98B0089BED5 /* Storyboard Example */ = {

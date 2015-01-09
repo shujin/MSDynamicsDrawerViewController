@@ -519,7 +519,7 @@ void MSDynamicsDrawerDirectionActionForMaskedValues(NSInteger direction, MSDynam
 {
     NSAssert(MSDynamicsDrawerDirectionIsCardinal(direction), @"Boundary is undefined for a non-cardinal reveal direction");
     CGRect boundary = CGRectZero;
-    boundary.origin = (CGPoint){-1.0, -1.0};
+    boundary.origin = (CGPoint){0.0, -1.0};
     if (self.possibleDrawerDirection & MSDynamicsDrawerDirectionHorizontal) {
         boundary.size.height = (CGRectGetHeight(self.paneView.frame) + 1.0);
         switch (state) {
